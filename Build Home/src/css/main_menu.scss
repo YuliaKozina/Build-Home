@@ -1,0 +1,58 @@
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  height: 55px;
+  margin: 0 auto;
+  background-color: #2a2d32;
+
+  .main_menu {
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 583px;
+
+      li {
+        width: auto;
+        padding-right: 30px;
+        padding-left: 30px;
+        border-right: 1px solid #181a1d;
+        color: #fff;
+        font-family: "Ubuntu Condensed", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 55px;
+      }
+
+      li:hover {
+        color: #f4b60d;
+      }
+
+      li:active {
+        background-color: #248cec;
+      }
+    }
+  }
+
+  .search {
+
+    input {
+      width: 224px;
+      height: 37px;
+      margin: 8px;
+      padding-left: 15px;
+      border: 1px solid #181a1d;
+      outline: none;
+      background-color: #35383c;
+    }
+
+    input::-webkit-input-placeholder {
+      color: #5d5f61;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+    }
+  }
+}

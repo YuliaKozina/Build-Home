@@ -1,0 +1,13 @@
+.articles {
+  height: 335px; }
+  .articles ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    list-style: none; }
+    .articles ul .number {
+      color: #e9e9ea;
+      font-size: 90px; }
+
+/*# sourceMappingURL=articles.css.map */

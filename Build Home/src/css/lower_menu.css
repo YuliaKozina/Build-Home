@@ -1,0 +1,31 @@
+.lower-menu-container {
+  background-color: #2a2d32; }
+  .lower-menu-container .lower-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1160px;
+    height: 325px;
+    margin: 0 auto; }
+    .lower-menu-container .lower-menu ul {
+      width: 260px;
+      margin-top: 55px;
+      list-style: none; }
+      .lower-menu-container .lower-menu ul p {
+        margin-bottom: 40px;
+        color: #fff;
+        font-family: "Ubuntu Medium", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500; }
+      .lower-menu-container .lower-menu ul li {
+        height: 35px;
+        border-bottom: 1px solid #393c40;
+        color: #828385;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        line-height: 35px; }
+      .lower-menu-container .lower-menu ul li:hover {
+        color: #266cb1; }
+
+/*# sourceMappingURL=lower-menu.css.map */

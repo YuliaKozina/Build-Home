@@ -1,0 +1,35 @@
+.header-container {
+  width: 1160px;
+  margin: 0 auto;
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+
+    .networks {
+      width: 145px;
+      margin: 15px;
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        li {
+          list-style: none;
+
+          a {
+            color: #ccc;
+          }
+
+          a:hover {
+            color: #248cec;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.main-container {
+  height: 540px;
+  background-color: #f7f7f7; }
+  .main-container .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1160px;
+    margin: 0 auto; }
+    .main-container .main .latest_news {
+      width: 600px;
+      margin: 0; }
+      .main-container .main .latest_news h1 {
+        padding-top: 65px;
+        padding-left: 15px;
+        font-family: 'Ubuntu Medium', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500; }
+      .main-container .main .latest_news .news {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 40px 40px -10px 0; }
+        .main-container .main .latest_news .news .text {
+          margin-top: 10px;
+          margin-left: 30px; }
+          .main-container .main .latest_news .news .text a {
+            color: #000;
+            font-family: 'Ubuntu Medium', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            text-decoration: none; }
+          .main-container .main .latest_news .news .text p {
+            padding-top: 10px;
+            color: #8a8a8a;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            line-height: 1.5; }
+          .main-container .main .latest_news .news .text span {
+            color: #248cec; }
+    .main-container .main .banners {
+      width: 600px;
+      margin: 0; }
+      .main-container .main .banners h1 {
+        padding-top: 65px;
+        padding-left: 15px;
+        font-family: 'Ubuntu Medium', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500; }
+      .main-container .main .banners .banners-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 40px; }
+        .main-container .main .banners .banners-content .panel {
+          display: flex;
+          flex-direction: column; }
+          .main-container .main .banners .banners-content .panel .panel-name {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            width: 558px;
+            height: 37px;
+            margin-top: 5px;
+            border: 1px solid #e8e8e8;
+            background-color: #fff;
+            color: #000;
+            font-family: 'Ubuntu Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500; }
+            .main-container .main .banners .banners-content .panel .panel-name .plus-minus {
+              width: 37px;
+              border-right: 2px solid #e8e8e8;
+              background: url("../images/plus.png") no-repeat center; }
+            .main-container .main .banners .banners-content .panel .panel-name p {
+              margin-left: 10px;
+              font-size: 13px;
+              line-height: 37px;
+              text-align: center; }
+          .main-container .main .banners .banners-content .panel .panel-content {
+            display: none;
+            width: 510px;
+            height: 165px;
+            margin-left: 40px; }
+            .main-container .main .banners .banners-content .panel .panel-content p {
+              margin-top: 25px;
+              color: #9b9b9b;
+              font-family: Arial, sans-serif;
+              font-size: 13px;
+              line-height: 1.5; }
+        .main-container .main .banners .banners-content .panel:hover .panel-name {
+          background-color: #f4b60d;
+          border: 1px solid #f4b60d;
+          color: #fff; }
+          .main-container .main .banners .banners-content .panel:hover .panel-name .plus-minus {
+            background: url("../images/minus.png") no-repeat center; }
+          .main-container .main .banners .banners-content .panel:hover .panel-name a {
+            border-right: 1px solid #f6c53d; }
+        .main-container .main .banners .banners-content .panel:hover .panel-content {
+          display: block; }
+
+/*# sourceMappingURL=main.css.map */

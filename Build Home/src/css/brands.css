@@ -1,0 +1,12 @@
+.brands-container {
+  width: 1160px;
+  height: 140px;
+  margin: 0 auto; }
+  .brands-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    list-style: none; }
+
+/*# sourceMappingURL=brands.css.map */
